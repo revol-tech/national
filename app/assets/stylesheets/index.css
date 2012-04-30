@@ -1,0 +1,138 @@
+*{
+ margin:0;
+ padding:0;
+
+}
+#basket{
+display:block;
+float:left;
+width:400px;
+margin:0 0 0 60px;
+}
+
+.content{
+    display:block;
+    float:left;
+    margin:12px 0 0 5px;
+
+}
+
+.content_basket{
+display:block;
+float:left;
+margin:10px 10px 0 5px;
+}
+
+.cartdetail{
+display:block;
+
+}
+
+label{
+color:green;
+
+}
+
+.login_content{
+font-size:12px;
+display:block;
+}
+
+
+#logo{
+float:left;
+width: 162px;
+height: 72px;
+margin-left: 25px;
+display:block;
+}
+
+#main{
+    background-color: #30D010;
+    float: left;
+    width: 100%;
+    height:50px;
+    display:block;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#main_wrapper{
+width:960px;
+display:block;
+margin: 0 auto;
+}
+
+
+#search{
+width:475px;
+height:32px;
+border:none;
+float: right;
+display:block;
+margin: 0 8px 0 0;
+border-radius: 5px 5px 5px 5px;
+background-color:#ffffff;
+}
+
+#sub_main{
+ background-color: #84E270;
+    border-radius: 5px 5px 5px 5px;
+    height: 42px;
+    float:left;
+    width:100%;
+    display:block;
+    margin:8px 0 0 0;
+    background: -moz-linear-gradient(top,  #a5e898,  #3dba22);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5e898', endColorstr='#3dba22');
+    background: -webkit-gradient(linear, left top, left bottom, from(#a5e898), to(#3dba22));
+
+}
+
+
+
+#sub_main p{
+display:block;
+color:#fff;
+float:left;
+font-size: 15px;
+margin:6px 0 0 10px;
+}
+
+
+
+#top{
+margin: 25px 0 0 0;
+width:100%;
+height:85px;
+display:block;
+}
+
+
+
+#top_basket{
+display:block;
+float:left;
+}
+
+#top_login{
+float:right;
+display:block;
+
+width:450px;
+height:80px;
+}
+
+#top_welcome{
+display:block;
+float:left;
+}
+.welcome{
+ float:left;
+
+}
+#what-ucan{
+float:left;
+display:block;
+margin: 20px 0 0 -190px;
+}

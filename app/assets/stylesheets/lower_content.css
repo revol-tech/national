@@ -1,0 +1,36 @@
+#latest{
+    background:url("Products-bar.png")no-repeat right;
+    float: left;
+    height: 45px;
+    margin: 20px 0 0 0;
+    width: 747px;
+    display:block;
+}
+
+#latest h2{
+    font-size: 15px;
+    display:block;
+    margin: 3px 0 0 100px;
+}
+
+
+#left_lower_content{
+    float:left;
+    disply:block;
+    width: 746px;
+}
+
+
+#right_lower_content{
+    background-color:#f9f9f9;
+    float:right;
+    height: 649px;
+    display:block;
+    width: 205px;
+    margin: 20px 0 0 0;
+}
+
+#lower_content{
+width:100%;
+display:block;
+}

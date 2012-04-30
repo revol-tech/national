@@ -1,0 +1,178 @@
+<div id="main_wrapper">
+    <div id="top">
+          <div id="logo">
+            <%= image_tag "LOGO.png"%>
+          </div>
+          <div id="top_login">
+                <div id="top_welcome">
+                  <%= image_tag "welcome-man.png" , :class=>"welcome" %>
+                   <div class="content">
+                  <span class="login_content">Welcome to visiter, You may <label>LOGIN</label> or <label>CREATE ACCOUNT</label></span>
+                   </div>
+                </div>
+                <div id="basket">
+                      <div id="top_basket">
+                        <%= image_tag "basket.png"%>
+                      </div>
+                      <div class="content_basket">
+                        <span class="login_content">Basket Items: <label>0 item(s):Total Rs 0.00</label></span>
+                      </div>
+                  <%= image_tag "cartdetail.png",:class=>"cartdetail"%>
+                </div>
+           </div>
+    </div>
+    <div id="main">
+        <div id="sub_main">
+            <p>What You Can Find Here</p>
+            <div id="what-ucan">
+            <%= image_tag "what-ucan.png"%>
+            </div>
+            <input type="text" id="search" />
+        </div>
+    </div>
+    <div id="nav_content">
+         <div id="nav">
+            <div class="nav_title">
+            <span class="nav_head"> Desktops</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head">Laptops and Notebooks</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head"> Computer Hardware</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head">Computer Software</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head">Gaming Devices</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head">Networking Devices</span>
+            </div>
+            <div class="nav_title">
+            <span class="nav_head">Other Gadgets and Devices</span>
+            </div>
+         </div>
+         <div id="banner">
+            <div id="banner_image">
+                <%= image_tag "laptop.png", :width=>"347", :height=>"293" %>
+            </div>
+            <div id="banner_content">
+                <h1>Untitled Colors</h1>
+                <h3>change whenever you want</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor leo, laoreet in sollicitudin id, dapibus scelerisque ipsum. Suspendisse varius nisl vitae diam lobortis lacinia.</p>
+                <button>Buy this item</button>
+            </div>            
+         </div>
+    </div>
+    <div id=middle_content>
+          <div id="left_middle_content">
+                <div id="feature">
+                    <h2>Featured Products</h2>
+                </div>
+                
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+          </div>
+          <div id="right_middle_content">
+          </div>
+    </div>
+    <div id="lower_middle">
+          <div class="sub_lower_middle">
+               <div class="sub_lower_middle_content">
+                 <h2>Lorem ipsum</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
+</div>       
+   </div>
+          <div class="sub_lower_middle">
+            <div class="sub_lower_middle_content">
+                 <h2>Lorem ipsum</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
+</div>
+</div>
+          <div class="sub_lower_middle">
+            <div class="sub_lower_middle_content">
+                 <h2>Lorem ipsum</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
+</div> 
+</div>
+    </div>
+    <div id=lower_content>
+          <div id="left_lower_content">
+                <div id="latest">
+                    <h2>Latest arrival</h2>
+                </div>
+                
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+                <div class="turnover">
+                    <div class="turnover_image">
+                    </div>
+                </div>
+          </div>
+          <div id="right_lower_content">
+          </div>
+    </div> 
+    <div id="lowest">
+    </div>
+</div>
+<div id="footer">
+  <div id="main_footer">   
+      <div id="footer_link">
+      <ul>
+      <li>
+      <a class="text" href="#">About Us ></a>
+      </li>
+      <li>
+      <a href="#">Delivery information ></a>
+      </li>
+      <li>
+      <a href="#">Privacy policy ></a>
+      </li>
+      <li>
+      <a href="#">Terms and condition ></a>
+      </li>
+      </ul>
+  </div>
+</div>
