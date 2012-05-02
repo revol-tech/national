@@ -9,17 +9,29 @@
 #contact_us h3{
     display: block;
     font-size: 15px;
-    margin: 10px;
+    margin: 10px 0 0 10px;
 }
 
 .contact_us_no{
-display:block;
-float:left;
+    color: #767676;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 15px 0 0 15px;
 }
 
 .contact_us_id{
-display:block;
-float:left;
+    display: block;
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+.contact_us_id p{
+    color: #0E66AE;
+    display: block;
+    float: left;
+    font-size: 12px;
+
 }
 
 #latest{
