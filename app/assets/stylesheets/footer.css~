@@ -1,12 +1,35 @@
 #footer{
-width:100%;
-height:175px;
-display:block;
+    background: none repeat scroll 0 0 #E2E2E2;
+    display: block;
+    float: left;
+    height: 175px;
+    width: 100%;
 }
 
 #main_footer{
-width:960px;
-display:block;
-margin:0 auto;
-height:175px;
+    width:960px;
+    display:block;
+    margin:0 auto;
+    height:175px;
 }
+
+#main_footer ul {
+    float: left;
+    list-style: none outside none;
+    padding-bottom: 4px;
+    padding-top: 40px;
+    width: 240px;x;
+}
+
+#main_footer a{
+  color:#0469e7;
+  font-size:12px;
+	text-decoration:none;
+}
+
+#main_footer .text{
+  font-size:13px;
+  color:#000000;
+	font-weight:bold;
+}
+

@@ -1,3 +1,27 @@
+#contact_us{
+    background: none repeat scroll 0 0 #F4F4F4;
+    display: block;
+    float: left;
+    height: 245px;
+    margin: 10px;
+}
+
+#contact_us h3{
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.contact_us_no{
+display:block;
+float:left;
+}
+
+.contact_us_id{
+display:block;
+float:left;
+}
+
 #latest{
     background:url("Products-bar.png")no-repeat right;
     float: left;

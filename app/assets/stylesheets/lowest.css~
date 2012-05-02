@@ -2,7 +2,7 @@
     border-bottom: 10px solid #F9F9F9;
     border-top: 10px solid #F9F9F9;
     float: left;
-    height: 170px;
+    height: 150px;
     margin: 20px 0 0;
     width: 960px;
 }

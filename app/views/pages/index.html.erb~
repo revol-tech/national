@@ -98,6 +98,7 @@
                 </div>
           </div>
           <div id="right_middle_content">
+                
           </div>
     </div>
     <div id="lower_middle">
@@ -152,7 +153,26 @@
                 </div>
           </div>
           <div id="right_lower_content">
-          </div>
+                <div id="contact_us">
+                      <div>
+                            <h3>Contact us</h3>
+                      </div>
+                      <div class="contact_us_no">
+                            <p>+44 1234 456 789</p>
+                            <p>+44 1234 456 123</p>
+                      </div>
+                      <div class="contact_us_no">
+                            <p>+44 1234 456 456</p>
+                      </div>
+                      <div class="contact_us_id">
+                            <p>test1@ncw.com.np</p>
+                            <p>test2@ncw.com.np</p>
+                      </div>
+                      <div class="contact_us_id">
+                            <p>test3</p>                      
+                      </div>
+                </div>       
+         </div>
     </div> 
     <div id="lowest">
     </div>
@@ -160,19 +180,34 @@
 <div id="footer">
   <div id="main_footer">   
       <div id="footer_link">
-      <ul>
-      <li>
-      <a class="text" href="#">About Us ></a>
-      </li>
-      <li>
-      <a href="#">Delivery information ></a>
-      </li>
-      <li>
-      <a href="#">Privacy policy ></a>
-      </li>
-      <li>
-      <a href="#">Terms and condition ></a>
-      </li>
-      </ul>
+          <ul>
+                <li><a class="text" href="#">INFORMATION</a></li>
+                <li><a href="#">About Us ></a></li>
+                <li><a href="#">Delivery information ></a></li>
+                <li><a href="#">Privacy policy ></a></li>
+                <li><a href="#">Terms and condition ></a></li>
+          </ul>
+          <ul>
+                <li><a class="text" href="#">CUSTOMER SERVICE</a></li>
+                <li><a href="#">Contact Us ></a></li>
+                <li><a href="#">Returns ></a></li>
+                 <li><a href="#">Map Site ></a></li>
+
+           </ul>
+           <ul>
+                <li><a class="text" href="#">EXTRAS</a></li>
+                <li><a href="#">Brands ></a></li>
+                <li><a href="#">Gift Vouchers ></a></li>
+                <li><a href="#">Affiliates ></a></li>
+                <li><a href="#">Specials ></a></li>
+          </ul>
+           <ul>
+                <li ><a href="#" class="text">MY ACCOUNT</a></li>
+                <li><a href="#">My Account ></a></li>
+                 <li><a href="#">Order History ></a></li>
+                 <li><a href="#">Wish List ></a></li>
+								<li><a href="#">Newsletter ></a></li>
+           </ul>
+      </div>
   </div>
 </div>
