@@ -1,3 +1,5 @@
+
+
 <div id="main_wrapper">
     <div id="top">
           <div id="logo">
@@ -54,131 +56,119 @@
             <span class="nav_head">Other Gadgets and Devices</span>
             </div>
          </div>
+   <!--banner slider-->
          <div id="banner">
-            <div id="banner_image">
-                <%= image_tag "laptop.png", :width=>"347", :height=>"293" %>
-            </div>
-            <div id="banner_content">
-                <h1>Untitled Colors</h1>
-                <h3>change whenever you want</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor leo, laoreet in sollicitudin id, dapibus scelerisque ipsum. Suspendisse varius nisl vitae diam lobortis lacinia.</p>
-                <button>Buy this item</button>
-            </div>            
+
+
+	<div id="slidorion">
+<!---for image to be slide-->
+		<div id="slider">
+			      <div id="slide1" class="slide">
+                  <%= image_tag "image1.jpeg",:width=>"488px",:height=>"400px" %>
+			      </div>
+
+			      <div id="slide2" class="slide">
+				          <%= image_tag "image2.jpeg",:width=>"488px",:height=>"400px" %>
+			      </div>
+
+			      <div id="slide3" class="slide">
+
+                           <%= image_tag "image3.jpeg",:width=>"488px",:height=>"400px" %>
+				      </div>
+    </div>
+			<!---end for image to be slide-->
+
+		<div id="accordion">
+			<div class="link-header">Laptops</div>
+			<div class="link-content">
+abc
+			</div>
+			<div class="link-header">sony laptop</div>
+			<div class="link-content">
+			def
+			</div>
+			<div class="link-header">dell laptops</div>
+			<div class="link-content">
+			ghi
+			</div>
+		</div>
+
+	</div>
          </div>
+         <!--end of banner slider-->
     </div>
     <div id=middle_content>
           <div id="left_middle_content">
                 <div id="feature">
                     <h2>Featured Products</h2>
                 </div>
-                
+
                 <div class="turnover">
                     <div class="turnover_image">
+                         <%= image_tag "image1.1.jpeg"%>
                     </div>
+                    <p>Brand Name:Sony</p>
+                    <p>Model no:s56g1</p>
+                    <input type="button" value="buy now" class="buy"/>
                 </div>
                 <div class="turnover">
                     <div class="turnover_image">
+                     <%= image_tag "image3.3.jpeg"%>
                     </div>
+                    <p>Brand Name:Sony</p>
+                    <p>Model no:s56g1</p>
+                                        <input type="button" value="buy now" class="buy"/>
                 </div>
                 <div class="turnover">
                     <div class="turnover_image">
+                     <%= image_tag "image2.2.jpeg"%>
                     </div>
+                    <p>Brand Name:Sony</p>
+                    <p>Model no:s56g1</p>
+                                        <input type="button" value="buy now" class="buy"/>
                 </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
+
           </div>
+          <!--advertisement div-->
           <div id="right_middle_content">
-                
+                     <div id="slideshow">
+
+                            <%= image_tag "image1.jpeg",:class=>"active"%>
+
+                           <%= image_tag "image2.jpeg"%>
+                            <%= image_tag "image3.jpeg" %>
+                            <%= image_tag "image4.jpeg" %>
+                     </div>
           </div>
+          <!--end of advertisement div-->
     </div>
     <div id="lower_middle">
           <div class="sub_lower_middle">
                <div class="sub_lower_middle_content">
                  <h2>Lorem ipsum</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
-</div>       
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p>
+</div>
    </div>
           <div class="sub_lower_middle">
             <div class="sub_lower_middle_content">
                  <h2>Lorem ipsum</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p>
 </div>
 </div>
           <div class="sub_lower_middle">
             <div class="sub_lower_middle_content">
                  <h2>Lorem ipsum</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p> 
-</div> 
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p>
+</div>
 </div>
     </div>
-    <div id=lower_content>
-          <div id="left_lower_content">
-                <div id="latest">
-                    <h2>Latest arrival</h2>
-                </div>
-                
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                    </div>
-                </div>
-          </div>
-          <div id="right_lower_content">
-                <div id="contact_us">
-                      <div >
-                            <h3>Contact us</h3>
-                      </div>
-                      <div class="contact_us_no">
-                            <p>+44 1234 456 789</p>
-                            <p>+44 1234 456 123</p>
-                      </div>
-                      <div class="contact_us_no">
-                            <p>+44 1234 456 456</p>
-                      </div>
-                      <div class="contact_us_id">
-                            <p>test1@ncw.com.np</p>
-                            <p>test2@ncw.com.np</p>
-                      </div>
-                      <div class="contact_us_id">
-                            <p>test3</p>                      
-                      </div>
-                </div>       
-         </div>
-    </div> 
+
     <div id="lowest">
+      <h1> slider</h1>
     </div>
 </div>
 <div id="footer">
-  <div id="main_footer">   
+  <div id="main_footer">
       <div id="footer_link">
           <ul>
                 <li><a class="text" href="#">INFORMATION</a></li>
