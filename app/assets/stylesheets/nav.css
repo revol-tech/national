@@ -5,14 +5,6 @@
     display:block;
 }
 
-.nav_title{
-    box-shadow: -8px 2px 21px 0 #3dba22 inset;
-    height: 40px;
-    margin-top: 2px;
-    width: 255px;
-    display:block;
-    background:url("navarrow.png")no-repeat right;
-}
 #nav_content{
    width:100%;
    float:left;

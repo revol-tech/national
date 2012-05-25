@@ -1,0 +1,13 @@
+<ul id="nav">
+	<% @category.each do |t|%>
+		<li><a href="#"><%=t.name%></a>
+		<%if t.products%>
+			<ul>
+				<% t.products.each do |f|%>
+					<li><a href="#"><%= f.name%></a></li>
+				<%end%>
+			</ul>
+		<%end%>
+		</li>
+	<%end%>
+</ul>
