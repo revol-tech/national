@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def index
   	@category = Category.all
+ 		@product = Product.all
   end
 
   def new

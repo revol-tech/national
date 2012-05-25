@@ -81,31 +81,7 @@ abc
                     <h2>Featured Products</h2>
                 </div>
 
-                <div class="turnover">
-                    <div class="turnover_image">
-                         <%= image_tag "image1.1.jpeg"%>
-                    </div>
-                    <p>Brand Name:Sony</p>
-                    <p>Model no:s56g1</p>
-                    <input type="button" value="buy now" class="buy"/>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                     <%= image_tag "image3.3.jpeg"%>
-                    </div>
-                    <p>Brand Name:Sony</p>
-                    <p>Model no:s56g1</p>
-                                        <input type="button" value="buy now" class="buy"/>
-                </div>
-                <div class="turnover">
-                    <div class="turnover_image">
-                     <%= image_tag "image2.2.jpeg"%>
-                    </div>
-                    <p>Brand Name:Sony</p>
-                    <p>Model no:s56g1</p>
-                                        <input type="button" value="buy now" class="buy"/>
-                </div>
-
+                <%= render 'feature_product'%>
           </div>
           <!--advertisement div-->
           <div id="right_middle_content">
